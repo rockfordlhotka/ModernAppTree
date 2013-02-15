@@ -1,0 +1,6 @@
+/ModernAppTree/bin
+
+/ModernAppTree/obj
+/ModernAppTree/*.user
+
+/*.suo

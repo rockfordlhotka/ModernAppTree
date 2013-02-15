@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="a354e7e0-f973-44c5-b25a-278394797387" Publisher="CN=MarimerLLC" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>ModernAppTree</DisplayName>
+    <PublisherDisplayName>MarimerLLC</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="ModernAppTree.App">
+      <VisualElements DisplayName="Modern App Tree" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="This app walks you through a series of questions to help you decide how you should build your modern apps." ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" ShortName="Modern App Tree" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+          <Rotation Preference="landscapeFlipped" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
